@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop watches at Ollykay Collection. Contact us on WhatsApp to order.">
+  <title>Ollykay Collection | Watches</title>
+  <style>
+    :root { --ink:#17202a; --gold:#c69b45; --cream:#faf7f0; --muted:#687078; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--ink); background:#fff; }
+    header { background:#111820; color:white; padding:22px 16px; text-align:center; }
+    .brand { margin:0; letter-spacing:2px; font-size:clamp(24px,5vw,36px); }
+    header p { margin:8px 0 0; color:#e6d4ae; }
+    .hero { background:linear-gradient(135deg,#f9f4e8,#fff); text-align:center; padding:44px 18px 36px; }
+    .hero h2 { margin:0 0 12px; font-size:clamp(25px,5vw,40px); }
+    .hero p { max-width:620px; margin:0 auto 22px; color:#505960; line-height:1.6; }
+    .button { display:inline-block; background:var(--gold); color:#111820; padding:13px 20px; border-radius:6px; font-weight:bold; text-decoration:none; }
+    main { max-width:1100px; margin:auto; padding:32px 16px 48px; }
+    .section-title { text-align:center; margin:0 0 8px; font-size:28px; }
+    .sub { text-align:center; color:var(--muted); margin:0 0 26px; }
+    .products { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; }
+    .product { border:1px solid #e7e2d8; border-radius:12px; overflow:hidden; background:white; box-shadow:0 4px 15px #1118200a; }
+    .watch-art { min-height:185px; display:flex; align-items:center; justify-content:center; background:linear-gradient(145deg,#f4efe4,#e6dfd0); font-size:70px; }
+    .product-info { padding:17px; }
+    .product h3 { margin:0 0 8px; font-size:19px; }
+    .price { color:#8a641c; font-size:21px; font-weight:bold; margin:0 0 12px; }
+    .product p { color:var(--muted); line-height:1.45; margin:0 0 15px; font-size:14px; }
+    .order { display:block; text-align:center; background:#1f9d55; color:white; text-decoration:none; padding:11px; border-radius:6px; font-weight:bold; }
+    .note { margin:25px auto 0; max-width:720px; background:var(--cream); padding:16px; border-radius:8px; color:#555; line-height:1.5; text-align:center; }
+    footer { text-align:center; padding:25px 16px; background:#111820; color:#fff; line-height:1.8; }
+    footer a { color:#e6d4ae; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="brand">OLLYKAY COLLECTION</h1>
+    <p>Timeless watches. Everyday style.</p>
+  </header>
+
+  <section class="hero">
+    <h2>Find a watch you'll love</h2>
+    <p>Explore our watch collection and message us on WhatsApp to confirm availability, price, and delivery details.</p>
+    <a class="button" href="https://wa.me/2347036035809?text=Hello%20Ollykay%20Collection%2C%20I%20want%20to%20ask%20about%20your%20watches." target="_blank" rel="noopener">Chat with us on WhatsApp</a>
+  </section>
+
+  <main>
+    <h2 class="section-title">Our Watches</h2>
+    <p class="sub">Prices are shown in Nigerian naira (₦).</p>
+
+    <div class="products">
+      <!-- To change a product, edit its name, price and description below. Keep prices at or below ₦100,000 if that is your shop limit. -->
+      <article class="product">
+        <div class="watch-art" aria-label="Watch illustration">⌚</div>
+        <div class="product-info">
+          <h3>Classic Wristwatch</h3>
+          <div class="price">₦30,000</div>
+          <p>A classic style for everyday wear. Ask us about available colours.</p>
+          <a class="order" href="https://wa.me/2347036035809?text=Hello%20Ollykay%20Collection%2C%20I%20am%20interested%20in%20the%20Classic%20Wristwatch." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="watch-art" aria-label="Watch illustration">⌚</div>
+        <div class="product-info">
+          <h3>Elegant Dress Watch</h3>
+          <div class="price">₦45,000</div>
+          <p>A smart look for special occasions and everyday outfits.</p>
+          <a class="order" href="https://wa.me/2347036035809?text=Hello%20Ollykay%20Collection%2C%20I%20am%20interested%20in%20the%20Elegant%20Dress%20Watch." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="watch-art" aria-label="Watch illustration">⌚</div>
+        <div class="product-info">
+          <h3>Premium Style Watch</h3>
+          <div class="price">₦75,000</div>
+          <p>A standout design. Contact us to confirm stock and details.</p>
+          <a class="order" href="https://wa.me/2347036035809?text=Hello%20Ollykay%20Collection%2C%20I%20am%20interested%20in%20the%20Premium%20Style%20Watch." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="note">
+      <strong>Before publishing:</strong> These are example product names and prices. Replace them with your mum's real watches, prices, and photos before customers order.
+    </div>
+  </main>
+
+  <footer>
+    <strong>Ollykay Collection</strong><br>
+    Watches • WhatsApp: <a href="https://wa.me/2347036035809" target="_blank" rel="noopener">0703 603 5809</a><br>
+    <small>Message us to confirm current stock, prices, and delivery.</small>
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop watches at Ollykay Collection. Contact us on WhatsApp to order.">
+  <title>Ollykay Collection | Watches</title>
+  <style>
+    :root { --ink:#17202a; --gold:#c69b45; --cream:#faf7f0; --muted:#687078; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--ink); background:#fff; }
+    header { background:#111820; color:white; padding:22px 16px; text-align:center; }
+    .brand { margin:0; letter-spacing:2px; font-size:clamp(24px,5vw,36px); }
+    header p { margin:8px 0 0; color:#e6d4ae; }
+    .hero { background:linear-gradient(135deg,#f9f4e8,#fff); text-align:center; padding:44px 18px 36px; }
+    .hero h2 { margin:0 0 12px; font-size:clamp(25px,5vw,40px); }
+    .hero p { max-width:620px; margin:0 auto 22px; color:#505960; line-height:1.6; }
+    .button { display:inline-block; background:var(--gold); color:#111820; padding:13px 20px; border-radius:6px; font-weight:bold; text-decoration:none; }
+    main { max-width:1100px; margin:auto; padding:32px 16px 48px; }
+    .section-title { text-align:center; margin:0 0 8px; font-size:28px; }
+    .sub { text-align:center; color:var(--muted); margin:0 0 26px; }
+    .products { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px; }
+    .product { border:1px solid #e7e2d8; border-radius:12px; overflow:hidden; background:white; box-shadow:0 4px 15px #1118200a; }
+    .watch-art { min-height:185px; display:flex; align-items:center; justify-content:center; background:linear-gradient(145deg,#f4efe4,#e6dfd0); font-size:70px; }
+    .product-info { padding:17px; }
+    .product h3 { margin:0 0 8px; font-size:19px; }
+    .price { color:#8a641c; font-size:21px; font-weight:bold; margin:0 0 12px; }
+    .product p { color:var(--muted); line-height:1.45; margin:0 0 15px; font-size:14px; }
+    .order { display:block; text-align:center; background:#1f9d55; color:white; text-decoration:none; padding:11px; border-radius:6px; font-weight:bold; }
+    .note { margin:25px auto 0; max-width:720px; background:var(--cream); padding:16px; border-radius:8px; color:#555; line-height:1.5; text-align:center; }
+    footer { text-align:center; padding:25px 16px; background:#111820; color:#fff; line-height:1.8; }
+    footer a { color:#e6d4ae; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="brand">OLLYKAY COLLECTION</h1>
+    <p>Timeless watches. Everyday style.</p>
+  </header>
+
+  <section class="hero">
+    <h2>Find a watch you'll love</h2>
+    <p>Explore our watch collection and message us on WhatsApp to confirm availability, price, and delivery details.</p>
+    <a class="button" href="https://wa.me/2347036035809?text=Hello%20Ollykay%20Collection%2C%20I%20want%20to%20ask%20about%20your%20watches." target="_blank" rel="noopener">Chat with us on WhatsApp</a>
+  </section>
+
+  <main>
+    <h2 class="section-title">Our Watches</h2>
+    <p class="sub">Prices are shown in Nigerian naira (₦).</p>
+
+    <div class="products">
+      <!-- To change a product, edit its name, price and description below. Keep prices at or below ₦100,000 if that is your shop limit. -->
+      <article class="product">
+        <div class="watch-art" aria-label="Watch illustration">⌚</div>
+        <div class="product-info">
+          <h3>Classic Wristwatch</h3>
+          <div class="price">₦30,000</div>
+          <p>A classic style for everyday wear. Ask us about available colours.</p>
+          <a class="order" href="https://wa.me/2347036035809?text=Hello%20Ollykay%20Collection%2C%20I%20am%20interested%20in%20the%20Classic%20Wristwatch." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="watch-art" aria-label="Watch illustration">⌚</div>
+        <div class="product-info">
+          <h3>Elegant Dress Watch</h3>
+          <div class="price">₦45,000</div>
+          <p>A smart look for special occasions and everyday outfits.</p>
+          <a class="order" href="https://wa.me/2347036035809?text=Hello%20Ollykay%20Collection%2C%20I%20am%20interested%20in%20the%20Elegant%20Dress%20Watch." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="product">
+        <div class="watch-art" aria-label="Watch illustration">⌚</div>
+        <div class="product-info">
+          <h3>Premium Style Watch</h3>
+          <div class="price">₦75,000</div>
+          <p>A standout design. Contact us to confirm stock and details.</p>
+          <a class="order" href="https://wa.me/2347036035809?text=Hello%20Ollykay%20Collection%2C%20I%20am%20interested%20in%20the%20Premium%20Style%20Watch." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="note">
+      <strong>Before publishing:</strong> These are example product names and prices. Replace them with your mum's real watches, prices, and photos before customers order.
+    </div>
+  </main>
+
+  <footer>
+    <strong>Ollykay Collection</strong><br>
+    Watches • WhatsApp: <a href="https://wa.me/2347036035809" target="_blank" rel="noopener">0703 603 5809</a><br>
+    <small>Message us to confirm current stock, prices, and delivery.</small>
+  </footer>
+</body>
+</html>name: Jekyll site CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
